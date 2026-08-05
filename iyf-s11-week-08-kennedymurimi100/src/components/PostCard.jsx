@@ -1,14 +1,10 @@
-function PostCard({ title, excerpt, author, date }) {
+function PostCard({ post, onLike }) {
   return (
-    <article className="post-card">
-      <h3>{title}</h3>
-      <p>{excerpt}</p>
+    <div>
+      <h3>{post.title}</h3>
 
-      <div className="post-meta">
-        <span>By {author}</span>
-        <span> | {date}</span>
-      </div>
-    </article>
+      <button onClick={onLike}>❤️ {post.likes}</button>
+    </div>
   );
 }
 
