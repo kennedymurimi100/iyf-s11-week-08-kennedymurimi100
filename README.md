@@ -1,16 +1,58 @@
-# React + Vite
+# Week 8: React Fundamentals — CommunityHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Author
+- **Name:** [Team Lead Full Name]
+- **GitHub:** [@kennedymurimi100](https://github.com/kennedymurimi100/iyf-s11-week-08-kennedymurimi100/edit/main/README.md)
+- **Date:** August 9, 2026
 
-Currently, two official plugins are available:
+## Project Description
+CommunityHub is a team-built React frontend for a community posting platform, built as the Week 8 flagship project. This week's deliverable covers the basic project structure and reusable UI components: layout (Header, Footer, Sidebar) and shared components (Button, Input), set up on a Vite + React foundation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React
+- Vite
+- JavaScript (ES6+)
+- JSX
+- CSS3
+- Git & GitHub (feature branch + PR workflow)
 
-## React Compiler
+## Features
+- Vite + React project scaffold
+- Header component (logo, navigation, login button)
+- Footer component (links, copyright)
+- Sidebar component (About section, popular posts, tags)
+- Reusable shared Button component (variant, size, disabled, loading states)
+- Reusable shared Input component (controlled input with label)
+- [Add: PostCard / PostList / CreatePost — team lead or other member to fill in]
+- [Add: UserCard / UserProfile — team lead or other member to fill in]
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to Run
+1. Clone this repository
+   ```
+   git clone https://github.com/kuriarobert41-debug/iyf-s11-week-08-kuriarobert41-debug.git
+   ```
+2. Navigate into the project folder
+   ```
+   cd iyf-s11-week-08-kuriarobert41-debug
+   ```
+3. Install dependencies
+   ```
+   npm install
+   ```
+4. Start the development server
+   ```
+   npm run dev
+   ```
+5. Open the local URL shown in the terminal (usually `http://localhost:5173`)
 
-## Expanding the Oxlint configuration
+## Lessons Learned
+- How to structure a React project with Vite from scratch
+- Building reusable components with props, default values, and the `children` pattern
+- Managing state with `useState` for controlled inputs and interactive UI
+- Working as a team through Git feature branches and Pull Requests instead of pushing directly to `main`
+- [Add: any additional lessons from teammates]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Challenges Faced
+- Coordinating project setup timing across team members working in parallel
+- Keeping shared files like `App.jsx` conflict-free by scoping PRs to component-only changes
+- [Add: any additional challenges from teammates]
